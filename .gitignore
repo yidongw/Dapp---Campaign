@@ -4,8 +4,6 @@
 node_modules
 npm-debug.log
 
-
-
 ### macOS ###
 # General
 .DS_Store
