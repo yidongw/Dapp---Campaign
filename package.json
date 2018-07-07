@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,12 @@
     "fs-extra": "^6.0.1",
     "ganache-cli": "^6.1.4",
     "mocha": "^5.2.0",
+    "next": "^4.2.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "routes": "^2.1.0",
+    "semantic-ui-css": "^2.3.2",
+    "semantic-ui-react": "^0.82.0",
     "solc": "^0.4.24",
     "truffle-hdwallet-provider": "0.0.5",
     "web3": "^1.0.0-beta.26"
