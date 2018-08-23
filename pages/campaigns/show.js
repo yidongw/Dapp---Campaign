@@ -9,7 +9,7 @@ import { Link } from '../../routes';
 class CompaignShow extends Component {
 
   static async getInitialProps (props) {
-    console.log("getInitialProps called");
+    // console.log("getInitialProps called");
     const campaign = Campaign(props.query.address)
 
     const summary = await campaign.methods.getSummary().call();

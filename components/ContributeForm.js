@@ -15,7 +15,7 @@ class ContributeForm extends Component {
     event.preventDefault();
 
     const campaign = Campaign(this.props.address);
-    console.log(campaign);
+    // console.log(campaign);
 
     this.setState({loading: true, errorMessage: ''});
     try {

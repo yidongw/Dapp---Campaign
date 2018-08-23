@@ -31,8 +31,8 @@ class RequestRow extends Component {
     const { id, request, totalApprovers } = this.props;
     const readyToFinalize = request.approvalCount > totalApprovers / 2;
 
-    console.log(request);
-    console.log( typeof request.amount );
+    // console.log(request);
+    // console.log( typeof request.amount );
 
     return (
       <Row disabled={request.compelete} positive={readyToFinalize && !request.compelete}>
